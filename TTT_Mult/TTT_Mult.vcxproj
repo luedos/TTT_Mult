@@ -89,10 +89,14 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\vlol\source\repos\TTT_Mult\TTT_Mult\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\vlol\source\repos\TTT_Mult\TTT_Mult\SDL2\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -146,10 +150,35 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameInclude\ClientClass.h" />
+    <ClInclude Include="GameInclude\GameMode.h" />
+    <ClInclude Include="GameInclude\GM_MP_Game.h" />
+    <ClInclude Include="GameInclude\GM_SP_Game.h" />
+    <ClInclude Include="GameInclude\GM_StartMenu.h" />
+    <ClInclude Include="GameInclude\MultBase.h" />
+    <ClInclude Include="GameInclude\ServerClass.h" />
+    <ClInclude Include="GraphicIncludes\Graphics.h" />
+    <ClInclude Include="GraphicIncludes\RenThing.h" />
+    <ClInclude Include="GraphicIncludes\RenThing_Button.h" />
+    <ClInclude Include="GraphicIncludes\RenThing_Button_CheckBox.h" />
+    <ClInclude Include="GraphicIncludes\RenThing_Button_DDMenu.h" />
+    <ClInclude Include="GraphicIncludes\RenThing_Button_Input.h" />
+    <ClInclude Include="GraphicIncludes\RenThing_Image.h" />
+    <ClInclude Include="GraphicIncludes\RenThing_Text.h" />
+    <ClInclude Include="GraphicIncludes\RenThing_TTTButton.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ClientClass.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GM_MP_Game.cpp" />
+    <ClCompile Include="GM_SP_Game.cpp" />
+    <ClCompile Include="GM_StartMenu.cpp" />
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="SendGetFunctions.cpp" />
+    <ClCompile Include="ServerClass.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

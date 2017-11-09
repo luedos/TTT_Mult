@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="GraphicsFolder">
+      <UniqueIdentifier>{bbe773e7-58b6-4c53-a790-696a01d0aa74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameInclude">
+      <UniqueIdentifier>{e86b5273-e360-45ae-9d19-c99a9073e2aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,6 +30,57 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="GraphicIncludes\Graphics.h">
+      <Filter>GraphicsFolder</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicIncludes\RenThing.h">
+      <Filter>GraphicsFolder</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicIncludes\RenThing_Button.h">
+      <Filter>GraphicsFolder</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicIncludes\RenThing_Button_DDMenu.h">
+      <Filter>GraphicsFolder</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicIncludes\RenThing_Image.h">
+      <Filter>GraphicsFolder</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicIncludes\RenThing_Text.h">
+      <Filter>GraphicsFolder</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicIncludes\RenThing_TTTButton.h">
+      <Filter>GraphicsFolder</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInclude\GameMode.h">
+      <Filter>GameInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInclude\GM_SP_Game.h">
+      <Filter>GameInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInclude\GM_StartMenu.h">
+      <Filter>GameInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInclude\GM_MP_Game.h">
+      <Filter>GameInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInclude\ClientClass.h">
+      <Filter>GameInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInclude\MultBase.h">
+      <Filter>GameInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInclude\ServerClass.h">
+      <Filter>GameInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicIncludes\RenThing_Button_Input.h">
+      <Filter>GraphicsFolder</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicIncludes\RenThing_Button_CheckBox.h">
+      <Filter>GraphicsFolder</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -31,6 +88,30 @@
     </ClCompile>
     <ClCompile Include="TTTMult.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>GraphicsFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="GM_SP_Game.cpp">
+      <Filter>GameInclude</Filter>
+    </ClCompile>
+    <ClCompile Include="GM_MP_Game.cpp">
+      <Filter>GameInclude</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientClass.cpp">
+      <Filter>GameInclude</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerClass.cpp">
+      <Filter>GameInclude</Filter>
+    </ClCompile>
+    <ClCompile Include="SendGetFunctions.cpp">
+      <Filter>GameInclude</Filter>
+    </ClCompile>
+    <ClCompile Include="GM_StartMenu.cpp">
+      <Filter>GameInclude</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
