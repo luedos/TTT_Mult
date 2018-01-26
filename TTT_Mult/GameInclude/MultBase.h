@@ -36,6 +36,8 @@ public:
 	void CloseMyConnection()
 	{
 		closesocket(Connection);
+
+		WSACleanup();
 	}
 	
 	bool SendBool(bool _Bool);

@@ -44,6 +44,9 @@ public:
 		void ChangeGrid11x11() { ChangeGrid(11, 11, 5); }
 		void ChangeGrid15x15() { ChangeGrid(15, 15, 6); }
 
+		void ChangeRuleRegular() { MyPlaceRule = EPlaceRule::Regular; }
+		void ChangeRuleHorse() { MyPlaceRule = EPlaceRule::Horse; }
+
 		EPlaceRule MyPlaceRule = EPlaceRule::Regular;
 
 private:

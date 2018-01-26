@@ -605,7 +605,7 @@ bool GM_MP_Game::CanPlaceHorse(int Num, bool IsOponent)
 	for (int i = 0; i < XO_Buttons.size(); i++)
 	{
 		GetGridFromNum(i, TestX, TestY);
-		if (abs((TestX - MyX) * (TestY - MyY)))
+		if (abs((TestX - MyX) * (TestY - MyY)) == 2)
 			if (XO_Buttons.at(i)->TTTIndex == IndexToUse)
 				return true;
 	}

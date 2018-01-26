@@ -131,8 +131,6 @@ void GM_SP_Game::GM_Event(SDL_Event * EventRef)
 					break;
 				}
 				}
-			
-
 
 
 				if(TestBoolLocal)
@@ -389,7 +387,7 @@ bool GM_SP_Game::CanPlaceHorse(int Num)
 	for (int i = 0; i < XO_Buttons.size(); i++)
 	{
 		GetGridFromNum(i, TestX, TestY);
-		if (abs((TestX - MyX) * (TestY - MyY)))
+		if (abs((TestX - MyX) * (TestY - MyY)) == 2)
 			if (XO_Buttons.at(i)->TTTIndex == MyIndex)
 				return true;
 	}

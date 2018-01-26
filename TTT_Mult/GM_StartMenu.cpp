@@ -141,9 +141,16 @@ void GM_StartMenu::ChooseSPMenu()
 	
 	TestCoord.Y = 0.4;
 
+	RenThing_Button_DDMenu* TestDDRule = MyGraph->AddDDMenu("Rule", &TestCoord);
+	TestDDRule->AddDDButton(&MyGame->SPGameplay, &GM_SP_Game::ChangeRuleRegular, "Regular");
+	TestDDRule->AddDDButton(&MyGame->SPGameplay, &GM_SP_Game::ChangeRuleHorse, "Horse");
+
+	TestCoord.Y = 0.6;
+
+
 	MyGraph->AddButton(MyGame, &Game::LoadSPGameplay, "Start Game", &TestCoord);
 
-	TestCoord.Y = 0.7;
+	TestCoord.Y = 0.8;
 
 	MyGraph->AddButton(this, &GM_StartMenu::GM_Start, "Back", &TestCoord);
 }
@@ -164,7 +171,7 @@ void GM_StartMenu::ChooseMPMenu()
 	MyGraph->AddDynamicText("Multiplayer", &HeaderTextColor, &TestCoord);
 
 	TestCoord.X = 0.1;
-	TestCoord.Y = 0.4;
+	TestCoord.Y = 0.55;
 
 	MyGraph->AddStaticText("Is Server", { 225,225,225,225 }, &TestCoord);
 
@@ -175,7 +182,7 @@ void GM_StartMenu::ChooseMPMenu()
 	TestCoord.bRelativeW = true;
 	TestCoord.W = 0.8;
 	TestCoord.X = 0.1;
-	TestCoord.Y = 0.2;
+	TestCoord.Y = 0.15;
 
 	RenThing_Button_DDMenu* TestDD = MyGraph->AddDDMenu("Grid", &TestCoord);
 	TestDD->AddDDButton(&MyGame->MPGameplay, &GM_MP_Game::ChangeGrid3x3, "3x3 line 3");
@@ -185,21 +192,27 @@ void GM_StartMenu::ChooseMPMenu()
 
 	TestCoord.Y = 0.3;
 
+	TestDD = MyGraph->AddDDMenu("Rule", &TestCoord);
+	TestDD->AddDDButton(&MyGame->MPGameplay, &GM_MP_Game::ChangeRuleRegular, "Regular");
+	TestDD->AddDDButton(&MyGame->MPGameplay, &GM_MP_Game::ChangeRuleHorse, "Horse");
+
+	TestCoord.Y = 0.45;
+
 	MyIPButton = MyGraph->AddInputButton("Public IP", &TestCoord);
 	MyIPButton->InType = IT_NumbersAndMarks;
 	MyIPButton->StringToUse = MyGame->MPGameplay.IP;
 
-	TestCoord.Y = 0.5;
+	TestCoord.Y = 0.65;
 
 	MyPORTButton = MyGraph->AddInputButton("Target PORT", &TestCoord);
 	MyPORTButton->InType = IT_Numbers;
 	if(MyGame->MPGameplay.PORT != 0)
 		MyPORTButton->StringToUse = to_string(MyGame->MPGameplay.PORT);
-	TestCoord.Y = 0.6;
+	TestCoord.Y = 0.75;
 
 	MyGraph->AddButton(this, &GM_StartMenu::StartMP, "Start", &TestCoord);
 
-	TestCoord.Y = 0.7;
+	TestCoord.Y = 0.85;
 
 	MyGraph->AddButton(this, &GM_StartMenu::GM_Start, "Back", &TestCoord);
 

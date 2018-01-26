@@ -119,6 +119,7 @@ bool ClientClass::ConnectTo(const char * IP, int PORT)
 	{
 		MessageBoxA(NULL, "Client : Failed to connect", "Error", MB_OK | MB_ICONERROR);
 		ConnectionClosed = true;
+		CloseMyConnection();
 		return false;
 	}
 	cout << "Connected to Server" << endl;
@@ -148,6 +149,7 @@ void ClientClass::MyThread()
 
 	cout << "Client : Lost connection to server" << endl;
 	clientptr->CloseMyConnection();
+
 
 	clientptr->IsProcessing = false;
 

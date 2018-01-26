@@ -43,6 +43,9 @@ public:
 
 		}
 		
+	void ChangeRuleRegular() { MyPlaceRule = EPlaceRule::Regular; }
+	void ChangeRuleHorse() { MyPlaceRule = EPlaceRule::Horse; }
+
 	EPlaceRule MyPlaceRule = EPlaceRule::Regular;
 
 	bool IsMyTurn;

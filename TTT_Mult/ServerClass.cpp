@@ -54,13 +54,15 @@ bool ServerClass::ListenToConnection(const char* IP, int PORT, bool isPublic)
 
 		ConnectionClosed = true;
 
+		CloseMyConnection();
+
 		return false;
 	}
 	
-	//Connection = LocalCon;
 
-		std::cout << "Client Connected" << std::endl;
-		CreateThread(NULL, NULL, (LPTHREAD_START_ROUTINE)ClientThread, NULL, NULL, NULL);
+
+	std::cout << "Client Connected" << std::endl;
+	CreateThread(NULL, NULL, (LPTHREAD_START_ROUTINE)ClientThread, NULL, NULL, NULL);
 
 	
 
@@ -152,6 +154,8 @@ void ServerClass::ClientThread()
 	cout << "Server : Lost connection to client" << endl;
 
 	serverptr->CloseMyConnection();
+
+	
 	
 	serverptr->ConnectionClosed = true;
 	//serverptr->MyGame->MyGame->LoadMainMenu();

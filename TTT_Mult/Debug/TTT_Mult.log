@@ -1,12 +1,13 @@
-﻿  ClientClass.cpp
-c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(37): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(39): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(44): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(47): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(49): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(52): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(54): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+﻿  ServerClass.cpp
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(38): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(40): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(45): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(48): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(50): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(53): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(55): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(61): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(60): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_text.h(88): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_text.h(93): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
@@ -42,5 +43,125 @@ c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_inp
 c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_input.h(103): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_checkbox.h(79): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_checkbox.h(84): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  ClientClass.cpp
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(38): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(40): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(45): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(48): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(50): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(53): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(55): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(61): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(60): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_text.h(88): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_text.h(93): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_image.h(53): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_image.h(58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button.h(108): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button.h(110): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button.h(139): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button.h(144): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(47): warning C4018: '<': signed/unsigned mismatch
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(66): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(68): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(85): warning C4018: '<': signed/unsigned mismatch
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(88): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(116): warning C4018: '<': signed/unsigned mismatch
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(168): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(170): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(173): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(175): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(178): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(180): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(183): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(185): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(190): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(203): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(208): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_tttbutton.h(46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_tttbutton.h(51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_input.h(74): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_input.h(76): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_input.h(98): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_input.h(103): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_checkbox.h(79): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_checkbox.h(84): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  Compiling...
+  GM_MP_Game.cpp
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(38): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(40): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(45): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(48): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(50): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(53): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(55): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(61): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing.h(60): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_text.h(88): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_text.h(93): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_image.h(53): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_image.h(58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button.h(108): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button.h(110): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button.h(139): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button.h(144): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(47): warning C4018: '<': signed/unsigned mismatch
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(66): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(68): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(85): warning C4018: '<': signed/unsigned mismatch
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(88): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(116): warning C4018: '<': signed/unsigned mismatch
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(168): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(170): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(173): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(175): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(178): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(180): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(183): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(185): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(190): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(203): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_ddmenu.h(208): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_tttbutton.h(46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_tttbutton.h(51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_input.h(74): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_input.h(76): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_input.h(98): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_input.h(103): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_checkbox.h(79): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\graphicincludes\renthing_button_checkbox.h(84): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(52): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(53): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(54): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(118): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(119): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(130): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(135): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(143): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(144): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(164): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(165): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(166): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(196): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(197): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(203): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(204): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(265): warning C4018: '<': signed/unsigned mismatch
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(368): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(369): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(370): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(591): warning C4018: '<': signed/unsigned mismatch
+c:\users\vlol\source\repos\ttt_mult\ttt_mult\gm_mp_game.cpp(605): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  TTTMult.cpp
+  SendGetFunctions.cpp
+  Game.cpp
+  GM_StartMenu.cpp
+  GM_SP_Game.cpp
   TTT_Mult.vcxproj -> C:\Users\vlol\source\repos\TTT_Mult\Debug\TTT_Mult.exe
-  TTT_Mult.vcxproj -> C:\Users\vlol\source\repos\TTT_Mult\Debug\TTT_Mult.pdb (Partial PDB)
